@@ -47,5 +47,11 @@ public class PlayerController : MonoBehaviour
                 canJump = Time.time + timeBeforeNextJump;
                 anim.SetTrigger("jump");
         }
+        // linus added this
+        // need some fixing
+        if (Input.GetButtonDown("Fire1"))
+        {
+            anim.SetTrigger("Peck");
+        }
     }
 }
