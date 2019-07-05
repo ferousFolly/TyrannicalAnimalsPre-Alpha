@@ -15,10 +15,18 @@ public class SceneScritp : MonoBehaviour
     }
     public void Play()
     {
-        SceneManager.LoadScene("Game");
+        SceneManager.LoadScene("Level selection");
     }
     public void BackToMeny()
     {
         SceneManager.LoadScene("Meny");
+    }
+    public void Levelone()
+    {
+        SceneManager.LoadScene("level 1");
+    }
+    public void Leveltwo()
+    {
+        SceneManager.LoadScene("level 2");
     }
 }
